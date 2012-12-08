@@ -1,0 +1,88 @@
+.widget.LatestArticles ul {
+	margin-bottom: 20px;
+}
+
+.widget.LatestArticles li {
+	border-bottom: 1px dotted #333;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.widget.LatestArticles li:hover {
+	background-color: #fcf5e3;
+}
+
+.widget.LatestArticles li h3 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-transform: uppercase;
+	font: bold 1.1em/1.6 'Droid Sans', Helvetica, sans-serif;
+}
+
+.widget.LatestArticles li h3 a {
+	color: #576d75;
+}
+
+.widget.LatestArticles li h3 a:hover{
+	color: #c23277;
+}
+
+.widget.LatestArticles p {
+	margin: 0;
+	padding: 0;
+	font-size: 1.6em;
+	line-height: 1.1em;
+	padding-bottom: 4px;
+	font-weight: bold;
+	font-family: 'Droid Sans', Helvetica, sans-serif;
+	text-shadow: 0 1px 1px #FFF;
+}
+
+.widget.LatestArticles p a {
+	color: #576d75;
+}
+
+.widget.LatestArticles h3.webtips a {
+	color: #29a198;
+}
+
+.widget.LatestArticles h3.codingtutorials a {
+	color: #268bd1;
+}
+
+.widget.LatestArticles li p a:hover{
+	color: #c23277;
+}
+
+.widget.LatestArticles .date {
+	color: #bc4515;
+}
+
+.widget.LatestArticles .date:after {
+	content: "■";
+	padding-left:7px;
+	padding-right:7px;
+}
+
+.widget.LatestArticles a {
+	text-decoration: none;
+	color: #444;
+}
+
+.widget.LatestArticles .author {
+}
+
+.widget.LatestArticles .author a {
+	text-decoration: underline;
+	color: #576d75;
+}
+
+.widget.LatestArticles .author a:hover {
+	text-decoration: none;
+	color: #d03680;
+}
+
